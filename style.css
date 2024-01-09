@@ -1,5 +1,30 @@
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: 0;
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/* header */
+
+.header-icon {
+  color: black;
+  font-family: Inter;
+}
+
+.header-bg{
+    background-color: white;
+}
+
+/* sidebar */
+
+.app-sidebar-style{
+    color: black;
+}
+
+.app-bg-primary{
+    background:  #FF5D25;
+    color: #FFFF;
+}
+.bi-list{
+    font-size: 30px;
 }
