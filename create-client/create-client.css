@@ -1,0 +1,42 @@
+* {
+  margin: 0%;
+  box-sizing: 0;
+}
+
+/* header */
+
+.header-icon {
+  color: black;
+  font-family: Inter;
+}
+
+.header-bg {
+  background-color: white;
+}
+
+.main-header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* sidebar */
+.sidebar-content {
+  color: #4a4a4a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sidebar-content:hover {
+  color: #ff5d25;
+}
+
+.my-client {
+  border-radius: 5px;
+  background: blue;
+  color: #fff;
+}
+.my-client:hover {
+  color: #fff;
+}
