@@ -40,3 +40,9 @@
 .my-client:hover {
   color: #fff;
 }
+
+.web-createdetails-bg {
+  background-color: #f4f4f4;
+  width: 1170px;
+  height: 66px;
+}

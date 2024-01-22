@@ -27,10 +27,9 @@
 
 <body>
     <div class="col-12 d-flex">
-        <div class="col-2 shadow">
-            <div class="col-12 d-flex justify-content-center">
-                <img src="/image/ohoh black logo.png" class="w-50   pt-5">
-            </div>
+        <div class="col-2 shadow vh-100">
+            <img src="/image/ohoh-logo.svg" alt="">
+        </div>
             <!-- Sidebar -->
             <div class="col-12 d-flex justify-content-center">
                 <ul class="pt-5 ">
@@ -147,100 +146,128 @@
                 <div class="row mb-3">
                     <!-- Company Name -->
                     <div class="col-12 col-md-3 col-lg-3">
-                        <label for="CompanyName" class="form-label">CompanyName</label>
-                        <input type="text" class="form-control" id="CompanyName">
+                        <label for="CompanyName" class="form-label">Company name</label>
+                        <input type="text" class="form-control" id="CompanyName" placeholder="XYZ">
                     </div>
                     <!-- Location -->
                     <div class="col-12 col-md-3 col-lg-3">
                         <label for="Location" class="form-label">Location</label>
-                        <input type="text" class="form-control" id="Location">
+                        <input type="text" class="form-control" id="Location" placeholder="India">
                     </div>
                     <!-- Account Manager -->
                     <div class="col-12 col-md-3 col-lg-3">
                         <label for="Account Manager" class="form-label">Account Manager</label>
-                        <input type="text" class="form-control" id="Account Manager">
+                        <input type="text" class="form-control" id="Account Manager" placeholder="Ram12@gmail.com">
                     </div>
                     <!-- Web Address -->
                     <div class="col-12 col-md-3 col-lg-3">
                         <label for="Web Address" class="form-label">Web Address</label>
-                        <input type="text" class="form-control" id="Web Address">
+                        <input type="text" class="form-control" id="Web Address" placeholder="XYZ.com">
                     </div>
                 </div>
-                <div class="row ">
-                    <div class="col-6 d-flex justify-content-between">
+
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <label for="Address" class="form-label">Address</label>
-                        <div class="form-check">
+                        <input type="text" class="form-control" id="Address"
+                            placeholder="72H Poorur ,Chennai ,600028 .">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex d-sm-none d-block d-md-none">
                             <input type="checkbox" class="form-check-input" id="checkbox">
                             <label class="form-check-label" for="checkbox">Same
                                 Address For Billing Address </label>
                         </div>
-                    </div>
-                    <div class="col-6 ">
-                        <label for="Billing address" class="form-label">Billing address</label>
+                        <div class="d-flex">
+                            <div>
+                                <label for="Address" class="form-label pe-5">BillingAddress</label>
+                            </div>
+                            <div class="d-md-block d-none">
+                                <input type="checkbox" class="form-check-input" id="checkbox">
+                                <label class="form-check-label" for="checkbox">Same
+                                    Address For Billing Address </label>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="Address"
+                            placeholder="72H Poorur ,Chennai ,600028 .">
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-6">
-                        <input type="text" class="form-control" id="Address">
-                    </div>
-                    <div class="col-6">
-                        <input type="text" class="form-control" id="Billing address">
-                    </div>
+                <!-- <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox">
+                            <label class="form-check-label" for="checkbox">Same
+                                Address For Billing Address </label>
+                        </div> -->
+
+                <!-- small device -->
+                <!-- <div class="col-sm-12">
+                    <label for="Address" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="Address">
                 </div>
+                <div class="col-sm-12">
+                    <label for="Billing address" class="form-label">Billing address</label>
+                    <input type="text" class="form-control" id="Billing address">
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkbox">
+                        <label class="form-check-label" for="checkbox">Same
+                            Address For Billing Address </label>
+                    </div>
+                </div> -->
                 <div class="row mb-3">
                     <h2>Contact Details</h2>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-3 d-flex align-items-end">
                     <div class="col-12 col-md-10 col-lg-10">
                         <div class="row">
                             <div class="col-12 col-md-3 col-lg-3">
                                 <label for="Contact person" class="form-label">Contact person</label>
-                                <input type="text" class="form-control" id="Contact person">
+                                <input type="text" class="form-control" id="Contact person" placeholder="Arun">
                             </div>
                             <div class="col-12 col-md-3 col-lg-3">
                                 <label for="Position" class="form-label">Position</label>
-                                <input type="text" class="form-control" id="Position">
+                                <input type="text" class="form-control" id="Position" placeholder="Arun">
                             </div>
                             <div class="col-12 col-md-3 col-lg-3">
                                 <label for="Phone Number" class="form-label">Phone Number</label>
-                                <input type="number" class="form-control" id="Phone Number">
+                                <input type="number" class="form-control" id="Phone Number" placeholder="00000 00000">
                             </div>
                             <div class="col-12 col-md-3 col-lg-3">
                                 <label for="Email ID" class="form-label">Email ID</label>
-                                <input type="email" class="form-control" id="Email ID">
+                                <input type="email" class="form-control" id="Email ID" placeholder="arun12@gmail.com">
                             </div>
                         </div>
                     </div>
-                    <div class="col-0 col-md-2 col-lg-2 mt-4">
+                    <div class="col-0 col-md-2 col-lg-2 d-flex justify-content-end">
                         <add href="#" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">
                             +Add</a>
                     </div>
                 </div>
-                <div class="row bg-light">
-                    <div class="col-12 d-flex">
+                <div class="row ">
+                    <div class="col-12 d-flex bg-light">
                         <div class="col-10">
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-12 col-md-3 col-lg-3">
+                                    <div class="col-12 col-md-3 col-lg-3 pt-2">
                                         <label for="Contact person" class="form-label">Contact person</label>
                                         <h6>Arun</h6>
                                     </div>
-                                    <div class="col-12 col-md-3 col-lg-3">
+                                    <div class="col-12 col-md-3 col-lg-3 pt-2">
                                         <label for="Position" class="form-label">Position</label>
                                         <h6>Regional Manager</h6>
                                     </div>
-                                    <div class="col-12 col-md-3 col-lg-3">
+                                    <div class="col-12 col-md-3 col-lg-3 pt-2">
                                         <label for="Phone Number" class="form-label">Phone Number</label>
                                         <h6>8988777784 </h6>
                                     </div>
-                                    <div class="col-12 col-md-3 col-lg-3">
+                                    <div class="col-12 col-md-3 col-lg-3 pt-2">
                                         <label for="Email ID" class="form-label">Email ID</label>
                                         <h6>arun12@gmail.com</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2 align-items-center">
+                        <div class="col-2 d-flex align-items-center justify-content-end">
                             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <i class="bi bi-pencil"></i>
                             </button>
@@ -252,7 +279,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 mb-5">
                         <button type="button" class="btn btn-primary float-end my-5" data-bs-toggle="modal"
                             data-bs-target="#exampleModal3">
                             Create Client
@@ -260,23 +287,43 @@
                     </div>
                 </div>
                 <!-- Edit Popup -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Contact</h1>
+                                <div class="d-flex pt-2">
+                                    <div class="">
+                                        <label class="">Contact Person</label><br>
+                                        <input type="text" name="popup" placeholder="Arun" class="popup-input ">
+                                    </div>
+                                    <div class="ps-3">
+                                        <label class="">Position</label><br>
+                                        <input type="text" name="popup" placeholder="Regional Manager"
+                                            class="popup-input">
+                                    </div>
+                                </div>
+                                <div class="d-flex  pt-2">
+                                    <div class="">
+                                        <label class="">Phone Number</label><br>
+                                        <input type="text" name="popup" placeholder="0000000000" class="popup-input">
+                                    </div>
+                                    <div class="ps-3">
+                                        <label class="">Email ID</label><br>
+                                        <input type="text" name="popup" placeholder="arun@gmail.com"
+                                            class="popup-input">
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
                 <!-- Delete Popup -->
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
@@ -284,10 +331,10 @@
                         <div class="modal-content">
                             <div class="modal-body">
                                 <div class="d-flex">
-                                    <div class="">
+                                    <div class="p-2">
                                         <img src="/image/remove popup.svg" alt="">
                                     </div>
-                                    <div class="">
+                                    <div class="p-2">
                                         <h5>Are you Sure want to Remove Contact Details</h5>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         </p>
@@ -295,7 +342,7 @@
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <button type="button" class="btn " data-bs-dismiss="modal">Cancel</button>
-                                    <button type="button" class="btn btn-primary"
+                                    <button type="button" class="btn btn-primary ms-3   "
                                         data-bs-dismiss="modal">Yes</button>
                                 </div>
                             </div>
@@ -312,15 +359,14 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center p-2">
                                     <img src="/image/success popup.svg" alt="">
                                 </div>
-                                <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center p-2">
                                     <h5>Client Created Successfully</h5>
                                 </div>
-                                <div class="d-flex justify-content-center ">
-                                    <button type="button" class="btn btn-primary"
-                                        data-bs-dismiss="modal">Yes</button>
+                                <div class="d-flex justify-content-center p-2">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Yes</button>
                                 </div>
                             </div>
                         </div>
@@ -543,5 +589,6 @@
             </div>
         </div>
     </div>
-</div> --> 
+</div> -->
+
 </html>
