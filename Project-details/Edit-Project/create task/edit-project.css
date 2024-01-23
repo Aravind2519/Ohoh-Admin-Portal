@@ -153,6 +153,35 @@
   padding: 12px 15px;
 }
 
+.client-current-project {
+  border-bottom: 1px solid #004cff;
+  background: rgba(0, 76, 255, 0.03);
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  color: #004cff;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: Mulish;
+  font-size: 14px;
+}
+
+.client-completed-project {
+  color: #344054;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+}
+.edit-form-bg {
+  border-radius: 4px;
+  border: 1px solid rgba(217, 217, 217, 0.34);
+  background: #f4f4f4;
+}
 .add-btn {
   background-color: #ff8000;
   color: #fff;

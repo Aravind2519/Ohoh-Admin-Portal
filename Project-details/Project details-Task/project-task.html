@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohoh-Admin-Portal</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/Project-details/Project details-Task/project-task.css">
+
+    <!-- font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <script src="https://kit.fontawesome.com/0c51ebf792.js" crossorigin="anonymous"></script>
+
+    <!-- boostrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- boostrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="col-12 d-flex">
+        <div class="col-2 vh-100 shadow">
+            <div class="col-12 d-flex justify-content-center">
+                <img src="/image/ohoh-logo.svg" class="w-50   pt-5">
+            </div>
+            <!-- Sidebar -->
+            <div class="col-12 d-flex justify-content-center">
+                <ul class="pt-5 ">
+                    <li class="list-group-item px-4 py-3">
+                        <a href="" class="text-decoration-none sidebar-content  ">
+                            <i class="bi bi-columns-gap pe-2"></i>
+                            <span class="p-1">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="list-group-item d-flex px-1 py-3">
+                        <a href="" class="text-decoration-none my-client px-4 py-2">
+                            <i class="bi bi-people pe-2"></i>
+                            <span class="">My Clients</span>
+                        </a>
+                    </li>
+
+                    <li class=" list-group-item  px-4 py-3">
+                        <a href="" class="text-decoration-none sidebar-content">
+                            <i class="bi bi-journal-code pe-2"></i>
+                            <span class="p-1">My Projects</span>
+                        </a>
+                    </li>
+
+                    <li class=" list-group-item px-4 py-3 ">
+                        <a href="" class="text-decoration-none sidebar-content">
+                            <i class="bi bi-person pe-2"></i>
+                            <span class="p-1">My Employees</span>
+                        </a>
+                    </li>
+
+                    <li class=" list-group-item px-4 py-3">
+                        <a href="" class="text-decoration-none sidebar-content">
+                            <i class="bi bi-file-earmark-text pe-2"></i>
+                            <span class="p-1">My Timesheet</span>
+                        </a>
+                    </li>
+
+                    <li class=" list-group-item px-4 py-3">
+                        <a href="" class="text-decoration-none sidebar-content">
+                            <i class="bi bi-check2-square pe-2"></i>
+                            <span class="p-1">Approval </span>
+                        </a>
+                    </li>
+
+                    <li class="  list-group-item px-4 py-3">
+                        <a href="" class="text-decoration-none sidebar-content">
+                            <i class="bi bi-file-earmark-text"></i>
+                            <span class="p-1">Reports</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-10">
+
+            <header class="main-header d-flex justify-content-between shadow ">
+                <div class="">
+                    <a href="" class="text-decoration-none">
+                        <i class="bi bi-list  header-icon  "></i>
+
+                    </a>
+                    <input type="text" placeholder="search" class="ms-3 ps-2">
+                </div>
+                <div class="d-flex ">
+                    <div class="d-flex gap-3 ">
+                        <a href="">
+                            <i class="bi bi-bell header-icon"></i>
+                        </a>
+                        <p class="">Tushar B</p>
+                        <a href=""><img src="/image/profile-logo.svg" class="pe-3" alt="" width="50px"></a>
+                    </div>
+
+                    <div class="dropdown pe-4">
+                        <button class="dropdown-toggle border border-0 bg-body" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ">Tushar B</a>
+                                <a href="" class=" text-decoration-none ps-3">tushar@builint.com</a>
+                            </li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <!-- main section -->
+            <div class="container">
+                <div class="col-12 d-flex justify-content-between mt-5 ">
+                    <div>
+                        <div class="form-heading">
+                            <h2>Project Details</h2>
+                        </div>
+                        <!-- breadcrumbs -->
+                        <div class="row">
+                            <nav aria-label="breadcrumb ">
+                                <ol class="breadcrumb form-sub-heading">
+                                    <li class="breadcrumb-item"><a href="/My client/myclient.html"
+                                            class=" text-decoration-none text-black"> Clients List</a></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="/client-details/current-project/current-project.html"
+                                            class=" text-decoration-none text-black"> Client Detail </a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Project Detail</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a class="edit-btn edit-icon p-2 text-decoration-none"
+                            href="/Project-details/Edit-Project/create task/edit-project.html"><i
+                                class="bi bi-pencil pe-3 edit-icon"></i>Edit</a>
+                    </div>
+                </div>
+                <!-- Project form -->
+                <div class="col-12 d-flex bg-light p-3 project-form-bg">
+                    <div class="col-9">
+                        <div class="col-12 d-flex">
+                            <div class="col-2">
+                                <div class="project-form">
+                                    <h6>Project Name</h6>
+                                    <p>SMRT</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="project-form">
+                                    <h6>Project Manager</h6>
+                                    <p>Tushar B</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="project-form">
+                                    <h6>Project Type</h6>
+                                    <p>Billable</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="project-form">
+                                    <h6>Total Hours</h6>
+                                    <p>27 July 2023</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="project-form">
+                                    <h6>Start Date </h6>
+                                    <p>18 July 2023</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="project-form">
+                                    <h6>End Date</h6>
+                                    <p>27 July 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="d-flex justify-content-between project-form">
+                            <h6>Progress</h6>
+                            <h6>45%</h6>
+                        </div>
+                        <div class="progress" style="height:10px">
+                            <div class="progress-bar" style="width:45%;"></div>
+                        </div>
+                        <div class="d-flex justify-content-between form-progress pt-2">
+                            <p>Allocate hrs 280</p>
+                            <p>Utilise hrs 90</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- breadcrumbs -->
+                <div class="d-flex mt-3">
+                    <div class="">
+                        <a href="/Project-details/Project details-Team/project-team.html" class="text-decoration-none  client-completed-project ">Team</a>
+                    </div>
+                    <div class="ps-4 client-current-project">
+                        <a href="" class="text-decoration-none">Task</a>
+                    </div>
+                </div>
+                <!-- Team-Section-1 -->
+                <section class="d-flex justify-content-between mt-3 bg-light align-items-center p-3 section1-bg ">
+                    <div class="project-section">
+                        <h5>UI / UX</h5>
+                        <p>Web Design</p>
+                    </div>
+
+                    <div class="d-flex gap-5 ">
+                        <div class="project-section">
+                            <h5>40 hrs</h5>
+                            <p>No.of Hours For This Task</p>
+                        </div>
+
+                        <div class="project-section">
+                            <h5>12-07-2023</h5>
+                            <p>Start Date</p>
+                        </div>
+
+                        <div class="project-section">
+                            <h5>20-07-2023</h5>
+                            <p>Completion Date</p>
+                        </div>
+                        <div class=" d-flex  ">
+                            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-pencil main-icon"></i>
+                            </button>
+
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                <i class="bi bi-trash main-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!-- Team-Section-2 -->
+                <section class="d-flex justify-content-between mt-3 bg-light align-items-center p-3 section1-bg ">
+                    <div class="project-section">
+                        <h5>Front End / </h5>
+                        <p>Web Developer</p>
+                    </div>
+
+                    <div class="d-flex gap-5 ">
+                        <div class="project-section">
+                            <h5>40 hrs</h5>
+                            <p>No.of Hours For This Task</p>
+                        </div>
+
+                        <div class="project-section">
+                            <h5>12-07-2023</h5>
+                            <p>Start Date</p>
+                        </div>
+
+                        <div class="project-section">
+                            <h5>20-07-2023</h5>
+                            <p>Completion Date</p>
+                        </div>
+                        <div class=" d-flex  ">
+                            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-pencil main-icon"></i>
+                            </button>
+
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                <i class="bi bi-trash main-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+      <!-- Edit Popup -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class=" p-3">
+                    <h1 class="modal-title fs-5 main-contact-details">Edit Task </h1>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex pt-2">
+                        <div class="">
+                            <label class="main-contact-label">Task</label><br>
+                            <input type="text" name="popup" placeholder="UI/UX" class="popup-input main-details-input">
+                        </div>
+                        <div class="ps-3 ">
+                            <label class="main-contact-label">No. Of Hours For This Task</label><br>
+                            <input type="text" name="popup" placeholder="40 hrs" class="popup-input main-details-input">
+                        </div>
+                    </div>
+                    <div class="d-flex  pt-2">
+                        <div class="">
+                            <label class="main-contact-label">Start Date</label><br>
+                            <input type="text" name="popup" placeholder="12-07-2023" class="popup-input main-details-input">
+                        </div>
+                        <div class="ps-3">
+                            <label class="main-contact-label">Completion date</label><br>
+                            <input type="text" name="popup" placeholder="20-07-2023" class="popup-input main-details-input">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end p-3">
+                    <button type="button" class="btn " data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary px-4 ">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Delete Popup -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="d-flex">
+                        <div class="p-2">
+                            <img src="/image/remove popup.svg" alt="">
+                        </div>
+                        <div class="p-2">
+                            <h5>Are you Sure want to Remove Contact Details</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn " data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary ms-3   "
+                            data-bs-dismiss="modal">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

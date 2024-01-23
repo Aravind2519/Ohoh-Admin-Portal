@@ -1,0 +1,193 @@
+* {
+  margin: 0%;
+  box-sizing: 0;
+}
+
+/* header */
+
+.header-icon {
+  color: black;
+  font-family: Inter;
+}
+
+.header-bg {
+  background-color: white;
+}
+
+/* sidebar */
+.sidebar-content {
+  color: #4a4a4a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sidebar-content:hover {
+  color: #ff5d25;
+}
+
+.my-client {
+  border-radius: 5px;
+  background: blue;
+  color: #fff;
+}
+
+.my-client:hover {
+  color: #fff;
+}
+
+/* main heading */
+.main-header {
+  background-color: #fff;
+  padding: 15px;
+}
+/* project details heading */
+.form-heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* form-sub-heading */
+.form-sub-heading {
+  color: #1c1b1f;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+.project-form-bg {
+  border-radius: 4px;
+  border: 1px solid #f3f3f3;
+  background: #fcfcfd;
+}
+
+.project-form > h6 {
+  color: #707070;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.project-form > p {
+  color: #000;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form-progress > p {
+  color: #000;
+  font-family: Mulish;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* edit btn */
+.edit-btn {
+  border-radius: 4px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+}
+
+.edit-icon {
+  color: #344054;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+/* breadcrumbs */
+.client-current-project {
+  border-bottom: 1px solid #004cff;
+  background: rgba(0, 76, 255, 0.03);
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  color: #004cff;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: Mulish;
+  font-size: 14px;
+}
+
+.client-completed-project {
+  color: #344054;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+}
+
+/* Team-Section */
+
+.section1-bg {
+  border-radius: 4px;
+  border: 1px solid #f3f3f3;
+  background: #fbfbfb;
+}
+.project-section > h5 {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.project-section > p {
+  color: #a5aeb4;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* section-card */
+
+.section-card-bg {
+  display: flex;
+  padding: 23px 51px 23px 25px;
+  align-items: center;
+  gap: 764px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.section-card-details > h5 {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section-card-details > h6 {
+  color: #000;
+  font-family: Mulish;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* plus */
+.bi-plus-square-fill {
+  color: blue;
+  font-size: 40px;
+}
